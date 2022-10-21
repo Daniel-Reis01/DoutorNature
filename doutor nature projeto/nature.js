@@ -1,23 +1,58 @@
-let promocionalBotaoA = document.getElementById(a1);
-let promocionalBotaoB = document.getElementById(b2);
-let promocionalBotaoC = document.getElementById(c3);
+const promocionalBotaoA = document.getElementById(a1);
+promocionalBotaoA.addEventListener('click' function(){
+     
+    if(display)
+});
+const promocionalBotaoB = document.getElementById(b2);
+const promocionalBotaoC = document.getElementById(c3);
+
+
+function carregarPromocional(){
+
+
 
 let primeiroValor = document.querySelector('h4');
-let  valorDesconto = document.querySelector('p');
-
-function mostrarProdutosDescontos(){
-     let  valorprodutoA =  95.00;
-     let  valorprodutoB =  148.60;
-     let  valorprodutoC =  297.20;
+let segundoValor = document.querySelector('h5');
+let segundoDesconto = document.querySelector('p');
+let  primeiroDesconto = document.querySelector('p');
 
 
-     if (a1.Clicked == true ) {
+    
+
+    const valorprodutoA =  95.00;
+    const descontoProdutoA =  95.00;
+
+    const valorprodutoB =  148.60;
+    const descontoprodutoB =  148.60;
+
+    const valorprodutoC =  297.20;
+    const descontoprodutoC =  297.20;
+ 
+
+    if (a) {
+
         primeiroValor.textContent ='R$' + valorprodutoA + 'por caixa';
         
-     } else if (b2.Clicked == true){
-        primeiroValor.textContent ='R$' + valorprodutoC + 'por caixa';
-    }else{
+        primeiroDesconto.textContent = 'economize' + 'R$' + descontoProdutoA ;
+
+        console.log( 'erro 1');
+
+     } else if (a) {  
+
         primeiroValor.textContent ='R$' + valorprodutoB + 'por caixa';
-    };
+        
+        primeiroDesconto.textContent = 'economize' + 'R$' + descontoprodutoB;
+        
+        console.log('erro 2');
+
+    } else {
+        
+        primeiroValor.textContent ='R$' + valorprodutoC + 'por caixa';
+        
+        primeiroDesconto.textContent = 'economize' + 'R$' + descontoprodutoC ;
+        
+        console.log('erro3');
+    } 
 
 }
+

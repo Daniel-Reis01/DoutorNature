@@ -1,0 +1,41 @@
+#conteudo{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: lightgreen;
+    display:none;
+}
+#conteudo{
+    display: block;
+}
+
+
+#promo{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: lightgreen;
+    display:none;
+}
+#promo{
+    display: block;
+}
+
+
+
+#superpromo{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: lightgreen;
+    display:none;
+}
+#superpromo{
+    display: block;
+}
