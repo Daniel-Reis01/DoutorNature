@@ -10,22 +10,22 @@
 
 
 
-// let primeiroValor = document.querySelector('h4');
-// let segundoValor = document.querySelector('h5');
-// let segundoDesconto = document.querySelector('p');
-// let  primeiroDesconto = document.querySelector('p');
+let primeiroValor = document.querySelector('h4');
+
+let segundoDesconto = document.getElementById('#eco1');
+
 
 
     
 
-//     const valorprodutoA =  95.00;
-//     const descontoProdutoA =  95.00;
+    const valorprodutoA =  95.00;
+    const descontoProdutoA =  0;
 
-//     const valorprodutoB =  148.60;
-//     const descontoprodutoB =  148.60;
+    const valorProdutoB =  148.60;
+    const descontoProdutoB =  136.20;
 
-//     const valorprodutoC =  297.20;
-//     const descontoprodutoC =  297.20;
+    const valorProdutoC =  297.20;
+    const descontoProdutoC =  297.20;
  
 
 //     if (a) {
@@ -60,3 +60,43 @@ const seta = document.querySelector('#arrow')
 seta.addEventListener('click', () => {
     window.scroll({top: window.innerHeight})
 });
+
+
+
+const btn1 = document.getElementById('#a1');
+
+function boton(){
+
+    
+    switch(btn1){
+        case addEventListener('click',() =>{
+            primeiroValor.textContent ='R$ ' + valorprodutoA + ' por caixa';
+            segundoDesconto.textContent ='economize' + 'R$' + descontoProdutoA ;
+        }):
+        break;
+    }
+}
+
+const btn2 = document.getElementById('#b2');
+function botonfix(){
+
+    switch(btn2){
+        case addEventListener('click',() =>{
+            primeiroValor.textContent ='R$ ' + valorProdutoB + ' por caixa';
+            segundoDesconto.textContent ='economize' + 'R$' + descontoProdutoB ;
+        }):
+        break;
+    }
+}
+const btn3 = document.getElementById('#c3');
+
+function botonlest(){
+    switch(btn2){
+        case addEventListener('click',() =>{
+            primeiroValor.textContent ='R$ ' + valorProdutoC + ' por caixa';
+            segundoDesconto.textContent ='economize' + 'R$' + descontoProdutoC ;
+        }):
+        break;
+    }
+}
+
