@@ -15,6 +15,16 @@ box-shadow: 0px 1px 1px 0px rgba(133, 127, 127, 0.733);
 .hidrat img{
     position: absolute;
 }
+.nature-c svg{
+animation: jumping 1s linear infinite;
+cursor: pointer;
+}
+@keyframes jumping {
+    from{transform: translateY(-15px);}
+    50%{transform: translateY(0);}
+    to{ transform: translatey(-15px);}
+    
+}
 .cosmetico{
     position: relative;
     display: flex;

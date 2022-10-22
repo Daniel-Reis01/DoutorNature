@@ -55,3 +55,8 @@
 
 // }
 
+const seta = document.querySelector('#arrow')
+
+seta.addEventListener('click', () => {
+    window.scroll({top: window.innerHeight})
+});
