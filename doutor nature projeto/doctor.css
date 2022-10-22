@@ -97,8 +97,8 @@ color: white;
 }
 .produto-medicinal{
     background-color:#F5F5F5;
-    height:480px;
-    width:550px ;
+    height:380px;
+    width:430px ;
     border-radius: 5px; 
 }
 .produto-medicinal button{
@@ -117,8 +117,8 @@ color: white;
 .produto-medicinal 
 .assinante{
 background-color:#F5F5F5;
-height:450px;
-width:570px ;
+/* height:350px;
+width:570px ; */
 border-radius: 5px;
 
 }
