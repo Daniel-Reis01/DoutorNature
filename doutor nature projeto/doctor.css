@@ -74,10 +74,10 @@ background-color:  #3B4157;
 }
 .oferta-h img{
     position: absolute;
-    margin-top: 2%;
+  ;
 }
 .oferta-promo h1{
-position:relative;
+   position: relative;
 margin-left:19px;
 color: white;
 
@@ -90,6 +90,7 @@ color: white;
     background-color:#484B57 ;
 }
 .produto-promo{
+    margin-top: 10%;
     display: flex;
     justify-content: space-evenly;
     align-items: center
@@ -100,18 +101,34 @@ color: white;
     width:550px ;
     border-radius: 5px; 
 }
+.produto-medicinal button{
+   color: #484B57;
+   border: none;
+   padding:10px 20px 1px 20px ;
+   margin-left: 10%;
+}
+.produto-medicinal button:hover {
+    background-color:#04a10ccc;
+}
+.produto-medicinal h2{
+    text-align: center;
+
+}
+.produto-medicinal 
 .assinante{
 background-color:#F5F5F5;
 height:450px;
 width:570px ;
 border-radius: 5px;
+
 }
 .assinante h2{
+    color: #F5F5F5;
     margin-top: 6%;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-background-color: #484B57;
+background-color: #484b57e5;
 border-radius: 5px;
 }
 .assinante p{
@@ -121,5 +138,7 @@ border-radius: 5px;
    font-size:20px ;
    text-align: initial;
 }
-.assinante img{
+.text-p{
+   text-align: center;
 }
+
