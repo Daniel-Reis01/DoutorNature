@@ -35,7 +35,7 @@ function boton(){
     switch(btn1){
         case addEventListener('click',() =>{
             primeiroValor.textContent ='R$ ' + valorprodutoA + ' por caixa';
-            segundoDesconto.textContent ='Economize' + 'R$' + descontoProdutoA ;
+            segundoDesconto.textContent ='Economize ' + ' R$ ' + descontoProdutoA ;
         }):
         break;
     }
@@ -47,7 +47,7 @@ function botonfix(){
     switch(btn2){
         case addEventListener('click',() =>{
             primeiroValor.textContent ='R$ ' + valorProdutoB + ' por caixa';
-            segundoDesconto.textContent ='Economize' + 'R$' + descontoProdutoB ;
+            segundoDesconto.textContent ='Economize ' + ' R$ ' + descontoProdutoB ;
         }):
         break;
     }
@@ -58,7 +58,7 @@ function botonlest(){
     switch(btn2){
         case addEventListener('click',() =>{
             primeiroValor.textContent ='R$ ' + valorProdutoC + ' por caixa';
-            segundoDesconto.textContent ='Economize' + 'R$' + descontoProdutoC ;
+            segundoDesconto.textContent ='Economize ' + ' R$ ' + descontoProdutoC ;
         }):
         break;
     }
