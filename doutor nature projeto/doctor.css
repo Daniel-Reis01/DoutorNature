@@ -298,6 +298,36 @@ margin-left: 15px;
     font-size:15px ;
     margin-bottom: 10%;
 }
-.duvida-texto {
- 
+.duvida-inicial{
+    background-color:  #3B4157;
+    height:695px; 
+}
+.duvida-inicial h1{
+    text-align: center;
+    color: #F5F5F5;
+    padding-top: 5%;
+    padding-bottom:3%;
+}
+.bi-bi-plus{
+color: #FF594E;
+}
+.duvida-inicial hr{
+    color: #F5F5F5;
+    height:2px;
+    border-width:0;
+    background-color:#F5F5F5;  
+}
+.du-vi-da{
+    color: #F5F5F5;
+    cursor:pointer;
+    text-decoration: none;
+}
+.du-vi-da:hover{
+color: #F5F5F5;
+}
+.duvida-texto p{
+ display: none;
+}
+.duvida-texto p{
+    display: block;
 }

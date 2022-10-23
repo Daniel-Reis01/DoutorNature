@@ -1,5 +1,5 @@
 function esconde(el) {
-    var display = document.getElementById(el).style.display;
+    let display = document.getElementById(el).style.display;
 
     if(display == "none"){
 

@@ -147,9 +147,43 @@ minhaImagemG.onclick = function() {
         
         minhaImagemG.setAttribute('src','img/check-icon-mobile-checked.png');
         
+        
     } else {
         
         minhaImagemG.setAttribute('src','img/check-icon-mobile.png');
         
     }
+}
+
+function esconde(el){
+
+    let display = document.getElementById(el).style.display;
+
+    if(display == "none"){
+
+        document.getElementById(el).style.display = 'block'; 
+       console.log('block') 
+    }else{
+
+        document.getElementById(el).style.display = 'none';
+           console.log('none')
+    }
+
+
+}
+function ativo(el){
+
+    let display = document.getElementById(el).style.display;
+
+    if(display == "none"){
+
+        document.getElementById(el).style.display = 'block'; 
+       console.log('block') 
+    }else{
+
+        document.getElementById(el).style.display = 'none';
+           console.log('none')
+    }
+
+
 }
