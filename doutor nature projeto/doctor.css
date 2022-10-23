@@ -3,6 +3,12 @@
     padding: 0;
     font-family: Roboto, Roboto Slab, Effra Bold;
 }
+ @font-face {
+        font-family: 'Effra' ;
+        src: url('Effra_Std_Bd.ttf') format(truetype), url('Effra_Std_He.ttf')format(truetype)  
+        url('Effra_Std_Lt.ttf') format(truetype), url('Effra_Std_Rg.ttf') format(truetype);
+    
+}
 header{
 height:40px ;
 background-color: azure;
@@ -300,7 +306,7 @@ margin-left: 15px;
 }
 .duvida-inicial{
     background-color:  #3B4157;
-    height:695px; 
+    height:795px; 
 }
 .duvida-inicial h1{
     text-align: center;
@@ -325,9 +331,78 @@ color: #FF594E;
 .du-vi-da:hover{
 color: #F5F5F5;
 }
-.duvida-texto p{
- display: none;
+.duvida-inicial p{
+    color: #F5F5F5;
 }
-.duvida-texto p{
+.duvida-a p{
+ display: block;
+}
+.duvida-a p{
+    margin-top: 2%;
+    display: none;
+}
+.duvida-b p{
     display: block;
+}
+.duvida-b p{
+    margin-top: 2%;
+    display:none;
+}
+.duvida-c p{
+    display: block;
+}
+.duvida-c p{
+    margin-top: 2%;
+    display: none;
+ }
+ .duvida-d p{
+    display: block;
+}
+ .duvida-d p{
+    margin-top: 2%;
+   display: none;
+}
+.duvida-e p{
+    display: block;
+ }
+.duvida-e p{
+    margin-top: 2%;
+    display: none;
+}  
+.duvida-f p{
+    display: block;
+ } 
+ .duvida-f p{
+    margin-top: 2%;
+    display: none;
+}
+.duvida-g p{
+    display: block;
+}
+.duvida-g p{
+    margin-top: 2%;
+    display: none;
+}
+.duvida-h p{
+    display: block;
+}
+.duvida-h p{
+    margin-top: 2%;
+    display: none;
+}
+.suplemento-a h1{
+    margin-top: 5%;
+    text-align: center;
+}
+.suplemento-a p{
+    text-align: center;
+    font-size:23px ;
+    color: #FF594E;
+    font-family:roboto Slab ;
+}
+.suplemento-atributo ul{
+   color: #1ab122;
+}
+.suplemento-atributo p{
+    color:#484B57;
 }
