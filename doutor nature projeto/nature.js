@@ -64,3 +64,92 @@ function botonlest(){
     }
 };
 
+let minhaImagem = document.getElementById('marcador');
+
+minhaImagem.onclick = function() {
+    
+    let meuSrc = minhaImagem.getAttribute('src');
+    
+    
+    if (meuSrc === 'img/check-icon.png') {
+        
+        minhaImagem.setAttribute('src','img/check-icon-green.png');
+        
+    } else {
+        
+        minhaImagem.setAttribute('src','img/check-icon.png');
+        
+    }
+};
+
+
+let minhaImagemA = document.getElementById('marcadorA');
+
+minhaImagemA.onclick = function() {
+    
+    let meuSrc = minhaImagemA.getAttribute('src');
+    
+    
+    if (meuSrc === 'img/check-icon.png') {
+        
+        minhaImagemA.setAttribute('src','img/check-icon-green.png');
+        
+    } else {
+        
+        minhaImagemA.setAttribute('src','img/check-icon.png');
+        
+    }
+} 
+
+let minhaImagemB = document.getElementById('marcadorB');
+
+minhaImagemB.onclick = function() {
+    
+    let meuSrc = minhaImagemB.getAttribute('src');
+    
+    
+    if (meuSrc === 'img/check-icon.png') {
+        
+        minhaImagemB.setAttribute('src','img/check-icon-green.png');
+        
+    } else {
+        
+        minhaImagemB.setAttribute('src','img/check-icon.png');
+        
+    }
+}
+
+let minhaImagemC = document.getElementById('marcadorC');
+
+minhaImagemC.onclick = function() {
+    
+    let meuSrc = minhaImagemC.getAttribute('src');
+    
+    
+    if (meuSrc === 'img/check-icon.png') {
+        
+        minhaImagemC.setAttribute('src','img/check-icon-green.png');
+        
+    } else {
+        
+        minhaImagemC.setAttribute('src','img/check-icon.png');
+        
+    }
+}
+let minhaImagemG = document.getElementById('marcadorgold');
+
+minhaImagemG.onclick = function() {
+    
+    let meuSrc = minhaImagemG.getAttribute('src');
+    
+    
+    if (meuSrc === 'img/check-icon-mobile.png') {
+        
+        minhaImagemG.setAttribute('src','img/check-icon-mobile-checked.png');
+        
+    } else {
+        
+        minhaImagemG.setAttribute('src','img/check-icon-mobile.png');
+        
+    }
+}
