@@ -16,7 +16,7 @@ let segundoDesconto = document.querySelector('h4');
     const descontoProdutoB =  136.20;
 
     const valorProdutoC =  297.20;
-    const descontoProdutoC =  297.20;
+    const descontoProdutoC =  150.20;
  
 
 const seta = document.querySelector('#arrow')

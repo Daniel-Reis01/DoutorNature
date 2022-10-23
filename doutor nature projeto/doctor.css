@@ -102,52 +102,95 @@ margin-top:69px;
 }
 .pacotepromo{
     background-color:  #3B4157;
+    height:580px;
 }
 
-.promocao-10{
-    margin-left: 50%;
-}
+
 .produto-promo{
-    position: relative;
- 
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center
+    display:flex;
+    justify-content: center;
+align-items: center;
 }
 .produto-medicinal{
     background-color:#F5F5F5;
     height:480px;
     width:430px ;
-    border-radius: 5px; 
+    border-radius: 5px;
+    
+    
+}
+.produto-medicinal h2{
+    margin-top: 8%;
+    margin-bottom: 17px;
+    text-align: center;
+    background-color: #484b57e5;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-position:top 10%;
+    color: #F5F5F5;
+    
 }
 .produto-medicinal button{
    color: #484B57;
    border: none;
-   padding:10px 20px 1px 20px ;
-   margin-left: 10%;
+   width:80px ;
+   height:80px ;
+   background-color: #9292923d;
+   font-size: 30px;
+   cursor: pointer;
+   border-radius: 5px;
+   font-weight: bold;
+
 }
 .produto-medicinal button:hover {
     background-color:#04a10ccc;
+    color: #F5F5F5;
 }
-.produto-medicinal h2{
-    margin-top:10px ;
-    text-align: center;
 
+.produto-medicinal button p{
+    color: #484b57e5;
+    font-size:22px ;
+    font-weight: 100;
+}
+.produto-medicinal button p:hover{
+    color: #F5F5F5;
 }
 .produto-medicinal h3{
     margin-top:10px ;
     text-align: center;
+    font-size:20px;
+}
+#a1{
+    margin-left: 22%;
 }
 .produto-medicinal h4{
     font-weight: normal;
     color:#04a10ccc;
     text-align: center;
+    font-size:20px ;
+}
+.produto-medicinal h5 {
+    text-align: center;
+    font-size:20px;
+    margin-top:5%;
+}
+.a-vista{
+    text-align: center;
+    font-size:20px ;
+    color:#04a10ccc;
+}
+.produto-medicinal h6 {
+    text-align: center;
 }
 .assinante{
 background-color:#F5F5F5;
-/* height:350px;
-width:570px ; */
+height:450px;
+width:570px ;
 border-radius: 5px;
+box-shadow: inset 15px -0px 30px -15px rgba(51, 51, 51, 0.705);
 
 }
 .assinante h2{
@@ -160,13 +203,16 @@ background-color: #484b57e5;
 border-radius: 5px;
 }
 .assinante p{
-    margin-left: 15%;
+    margin-left: 10%;
     margin-bottom: 2%;
    color: #484B57;
    font-size:20px ;
-   text-align: initial;
+   
 }
 .text-p{
    text-align: center;
+}
+.promocao-10{
+    
 }
 
