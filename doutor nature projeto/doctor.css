@@ -244,11 +244,14 @@ width: 320px;
     text-align: center;
     color: #FF594E;
     font-size: 15px;
+    margin-bottom: 20%;
 }
 .selo-garantia{
 display: flex;
 align-items: center
 }
 .selo-garantia p{
-text-align: center;
+text-align: left;
+font-style: Roboto;
+margin-left: 5%;
 }
