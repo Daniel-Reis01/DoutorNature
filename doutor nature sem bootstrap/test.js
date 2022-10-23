@@ -1,43 +1,43 @@
-// function esconde(el) {
-//     var display = document.getElementById(el).style.display;
+function esconde(el) {
+    var display = document.getElementById(el).style.display;
 
-//     if(display == "none"){
+    if(display == "none"){
 
-//         document.getElementById(el).style.display = 'block'; 
-//        console.log('block') 
-//     }else{
+        document.getElementById(el).style.display = 'block'; 
+       console.log('block') 
+    }else{
 
-//         document.getElementById(el).style.display = 'none';
-//            console.log('none')
-//     }
-// }
-// function mostra(el) {
+        document.getElementById(el).style.display = 'none';
+           console.log('none')
+    }
+}
+function mostra(el) {
 
-//     var display = document.getElementById(el).style.display;
+    var display = document.getElementById(el).style.display;
 
-//     if(display == "none"){
+    if(display == "none"){
 
-//         document.getElementById(el).style.display = 'block'; 
+        document.getElementById(el).style.display = 'block'; 
 
-//     }else{
+    }else{
 
-//         document.getElementById(el).style.display = 'none';
+        document.getElementById(el).style.display = 'none';
 
-//     }
-// } 
-// function toggle(el) {
+    }
+} 
+function toggle(el) {
 
-//     var display = document.getElementById(el).style.display;
+    var display = document.getElementById(el).style.display;
 
-//     if(display == "none"){
+    if(display == "none"){
 
-//         document.getElementById(el).style.display = 'block';
+        document.getElementById(el).style.display = 'block';
 
-//     }else{
+    }else{
 
-//         document.getElementById(el).style.display = 'none';
-//     }
-// }   
+        document.getElementById(el).style.display = 'none';
+    }
+}   
 
 var el = document.createElement("h3");
 
