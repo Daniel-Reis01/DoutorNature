@@ -1,12 +1,10 @@
-
-
-
 let primeiroValor = document.querySelector('h3');
 
 let primeiroDesconto = document.querySelector('h4');
 
-let segundoValor = document.querySelector('h5')
-let segundoDesconto = document.querySelector('#vista')
+let segundoValor = document.querySelector('h5');
+
+let segundoDesconto = document.querySelector('#vista');
 
 
     
@@ -35,6 +33,7 @@ seta.addEventListener('click', () => {
 
 
 
+
 const btn1 = document.getElementById('#a1');
 
 function boton(){
@@ -50,7 +49,7 @@ function boton(){
        
         break;
     }
-}
+};
 
 const btn2 = document.getElementById('#b1');
 
@@ -65,11 +64,11 @@ function botonfix(){
         }):
         break;
     }
-}
+};
 const btn3 = document.getElementById('#c1');
 
 function botonlest(){
-    switch(btn2){
+    switch(btn3){
         case addEventListener('click',() =>{
             primeiroValor.textContent ='R$ ' + valorProdutoC + ' por caixa';
             primeiroDesconto.textContent ='Economize ' + ' R$ ' + descontoProdutoC ;
@@ -79,6 +78,66 @@ function botonlest(){
         break;
     }
 };
+
+
+
+
+
+
+
+const botnA = document.getElementById('#aa1');
+
+function botao(){
+
+    
+    switch(botnA){
+        case addEventListener('click',() =>{
+            console.log('0')
+            primeiroValor.textContent ='R$ ' + valorprodutoA + ' por caixa';
+            console.log('1')
+            primeiroDesconto.textContent =' ';
+            console.log('2')
+            segundoValor.textContent ='HOJE: ' + '12X ' + 'R$' + promocaoProdutoA ;
+            segundoDesconto.textContent ='ou R$ ' + vistaProdutoA +' á vista' ;
+           
+        }):
+       break;
+    }
+};
+
+const botao2 = document.getElementById('#bb');
+function central(){
+   
+
+    switch(botao2){
+        case addEventListener('click',() =>{
+            console.log('0')
+            primeiroValor.textContent ='R$ ' + valorProdutoB + ' por caixa';
+            // console.log('1')
+            primeiroDesconto.textContent ='Economize ' + ' R$ ' + descontoProdutoB ;
+            // console.log('2')
+            segundoValor.textContent ='HOJE: ' + '12X ' + 'R$' + promocaoProdutoB ;
+            segundoDesconto.textContent ='ou R$ ' + vistaProdutoB +' á vista' ;
+        }):
+        break;
+    }
+}
+const botn = document.getElementById('#cc');
+
+function longe(){
+    switch(botn){
+        case addEventListener('click',() =>{
+            primeiroValor.textContent ='R$ ' + valorProdutoC + ' por caixa';
+            primeiroDesconto.textContent ='Economize ' + ' R$ ' + descontoProdutoC ;
+            segundoValor.textContent ='HOJE: ' + '12X ' + 'R$' + promocaoProdutoC ;
+            segundoDesconto.textContent ='ou R$ ' + vistaProdutoC +' á vista' ;
+        }):
+        break;
+    }
+};
+
+
+
 
 let minhaImagem = document.getElementById('marcador');
 

@@ -477,7 +477,7 @@ color: #F5F5F5;
     text-align: center;
     font-size:20px;
 }
-#aa{
+#aa1{
     margin-left: 17%;
 }
 .suplemento-promo h4{
@@ -570,3 +570,7 @@ color: #F5F5F5;
     .logo-footer p{
         padding-top: 1%;
     }
+
+@media (max-width:1200px ) {
+    
+}    
