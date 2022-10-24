@@ -27,7 +27,7 @@ seta.addEventListener("click", () => {
   window.scroll({ top: window.innerHeight });
 });
 
-const btn1 = document.getElementById("#a1");
+const btn1 = document.getElementById("a1");
 
 function boton() {
   switch (btn1) {
@@ -41,7 +41,7 @@ function boton() {
   }
 }
 
-const btn2 = document.getElementById("#b1");
+const btn2 = document.getElementById("b1");
 
 function botonfix() {
   switch (btn2) {
@@ -54,7 +54,7 @@ function botonfix() {
       break;
   }
 }
-const btn3 = document.getElementById("#c1");
+const btn3 = document.getElementById("c1");
 
 function botonlest() {
   switch (btn3) {
@@ -68,16 +68,13 @@ function botonlest() {
   }
 }
 
-const botnA = document.getElementById("#aa1");
+const botnA = document.getElementById("aa1");
 
 function botao() {
   switch (botnA) {
     case addEventListener("click", () => {
-      console.log("0");
       primeiroValor.textContent = "R$ " + valorprodutoA + " por caixa";
-      console.log("1");
       primeiroDesconto.textContent = " ";
-      console.log("2");
       segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoA;
       segundoDesconto.textContent = "ou R$ " + vistaProdutoA + " á vista";
     }):
@@ -85,22 +82,20 @@ function botao() {
   }
 }
 
-const botao2 = document.getElementById("#bb");
+const botao2 = document.getElementById("bb");
 function central() {
   switch (botao2) {
     case addEventListener("click", () => {
       console.log("0");
       primeiroValor.textContent = "R$ " + valorProdutoB + " por caixa";
-      // console.log('1')
       primeiroDesconto.textContent = "Economize " + " R$ " + descontoProdutoB;
-      // console.log('2')
       segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoB;
       segundoDesconto.textContent = "ou R$ " + vistaProdutoB + " á vista";
     }):
       break;
   }
 }
-const botn = document.getElementById("#cc");
+const botn = document.getElementById("cc");
 
 function longe() {
   switch (botn) {
@@ -114,220 +109,120 @@ function longe() {
   }
 }
 
-function checkUncheck(el) {
-  if (el.getAttribute("src") == "img/check-icon.png") {
-    el.setAttribute("src", "img/check-icon-green.png");
+function checkUncheckAssinante(el) {
+  if (el.querySelector("img").getAttribute("src") == "img/check-icon.png") {
+    el.querySelector("img").setAttribute("src", "img/check-icon-green.png");
   } else {
-    el.setAttribute("src", "img/check-icon-green.png");
+    el.querySelector("img").setAttribute("src", "img/check-icon-green.png");
   }
 }
 
-let minhaImagem = document.getElementById("marcador");
-
-minhaImagem.onclick = function () {
-  let meuSrc = minhaImagem.getAttribute("src");
-
-  if (meuSrc === "img/check-icon.png") {
-    minhaImagem.setAttribute("src", "img/check-icon-green.png");
+function assinateCkeckEconomize(el) {
+  if (el.querySelector("img").getAttribute("src") === "img/check-icon.png") {
+    el.querySelector("img").setAttribute("src", "img/check-icon-green.png");
   } else {
-    minhaImagem.setAttribute("src", "img/check-icon.png");
+    el.querySelector("img").setAttribute("src", "img/check-icon.png");
   }
-};
+}
 
-let minhaImagemA = document.getElementById("marcadorA");
-
-minhaImagemA.onclick = function () {
-  let meuSrc = minhaImagemA.getAttribute("src");
-
-  if (meuSrc === "img/check-icon.png") {
-    minhaImagemA.setAttribute("src", "img/check-icon-green.png");
-  } else {
-    minhaImagemA.setAttribute("src", "img/check-icon.png");
-  }
-};
-
-let minhaImagemB = document.getElementById("marcadorB");
-
-minhaImagemB.onclick = function () {
-  let meuSrc = minhaImagemB.getAttribute("src");
-
-  if (meuSrc === "img/check-icon.png") {
-    minhaImagemB.setAttribute("src", "img/check-icon-green.png");
-  } else {
-    minhaImagemB.setAttribute("src", "img/check-icon.png");
-  }
-};
-
-let minhaImagemC = document.getElementById("marcadorC");
-
-minhaImagemC.onclick = function () {
-  let meuSrc = minhaImagemC.getAttribute("src");
-
-  if (meuSrc === "img/check-icon.png") {
-    minhaImagemC.setAttribute("src", "img/check-icon-green.png");
-  } else {
-    minhaImagemC.setAttribute("src", "img/check-icon.png");
-  }
-};
-
-let minhaImagemG = document.getElementById("marcadorgold");
-
-minhaImagemG.onclick = function () {
-  let meuSrc = minhaImagemG.getAttribute("src");
-
-  if (meuSrc === "img/check-icon-mobile.png") {
-    minhaImagemG.setAttribute("src", "img/check-icon-mobile-checked.png");
-  } else {
-    minhaImagemG.setAttribute("src", "img/check-icon-mobile.png");
-  }
-};
-
-function escondeA(el) {
-  let display = document.getElementById(el).style.display;
+function esconderMostrar(el) {
+  var display = document.querySelector("p").style.display;
 
   if (display == "block") {
-    document.getElementById(el).style.display = "none";
+    document.querySelector("p").style.display = 'none';
     console.log("block");
   } else {
-    document.getElementById(el).style.display = "block";
+    document.querySelector("p").style.display = "block";
     console.log("none");
   }
 }
 
-function escondeB(el) {
-  let display = document.getElementById(el).style.display;
+// function escondeB(el) {
+//   let display = document.getElementById(el).style.display;
 
-  if (display == "block") {
-    document.getElementById(el).style.display = "none";
-    console.log("block");
-  } else {
-    document.getElementById(el).style.display = "block";
-    console.log("none");
-  }
-}
-
-function escondeC(el) {
-  let display = document.getElementById(el).style.display;
-
-  if (display == "block") {
-    document.getElementById(el).style.display = "none";
-    console.log("block");
-  } else {
-    document.getElementById(el).style.display = "block";
-    console.log("none");
-  }
-}
-function escondeC(el) {
-  let display = document.getElementById(el).style.display;
-
-  if (display == "block") {
-    document.getElementById(el).style.display = "none";
-    console.log("block");
-  } else {
-    document.getElementById(el).style.display = "block";
-    console.log("none");
-  }
-}
-function escondeD(el) {
-  let display = document.getElementById(el).style.display;
-
-  if (display == "block") {
-    document.getElementById(el).style.display = "none";
-    console.log("block");
-  } else {
-    document.getElementById(el).style.display = "block";
-    console.log("none");
-  }
-}
-function escondeE(el) {
-  let display = document.getElementById(el).style.display;
-
-  if (display == "block") {
-    document.getElementById(el).style.display = "none";
-    console.log("block");
-  } else {
-    document.getElementById(el).style.display = "block";
-    console.log("none");
-  }
-}
-function escondeF(el) {
-  let display = document.getElementById(el).style.display;
-
-  if (display == "block") {
-    document.getElementById(el).style.display = "none";
-    console.log("block");
-  } else {
-    document.getElementById(el).style.display = "block";
-    console.log("none");
-  }
-}
-function escondeG(el) {
-  let display = document.getElementById(el).style.display;
-
-  if (display == "block") {
-    document.getElementById(el).style.display = "none";
-    console.log("block");
-  } else {
-    document.getElementById(el).style.display = "block";
-    console.log("none");
-  }
-}
-function escondeH(el) {
-  let display = document.getElementById(el).style.display;
-
-  if (display == "block") {
-    document.getElementById(el).style.display = "none";
-    console.log("block");
-  } else {
-    document.getElementById(el).style.display = "block";
-    console.log("none");
-  }
-}
-// const bot = document.getElementById('#aa');
-
-// function botao(){
-
-//     switch(bot){
-//         case addEventListener('click',() =>{
-//             console.log('0')
-//             primeiroValor.textContent ='R$ ' + valorprodutoA + ' por caixa';
-//             console.log('1')
-//             primeiroDesconto.textContent =' ';
-//             console.log('2')
-//             segundoValor.textContent ='HOJE: ' + '12X ' + 'R$' + promocaoProdutoA ;
-//             segundoDesconto.textContent ='ou R$ ' + vistaProdutoA +' á vista' ;
-
-//         }):
-//        break;
-//     }
+//   if (display == "block") {
+//     document.getElementById(el).style.display = "none";
+//     console.log("block");
+//   } else {
+//     document.getElementById(el).style.display = "block";
+//     console.log("none");
+//   }
 // }
 
-// const botao2 = document.getElementById('#bb');
-// function central(){
+// function escondeC(el) {
+//   let display = document.getElementById(el).style.display;
 
-//     switch(botao2){
-//         case addEventListener('click',() =>{
-//             console.log('0')
-//             primeiroValor.textContent ='R$ ' + valorProdutoB + ' por caixa';
-//             // console.log('1')
-//             primeiroDesconto.textContent ='Economize ' + ' R$ ' + descontoProdutoB ;
-//             // console.log('2')
-//             segundoValor.textContent ='HOJE: ' + '12X ' + 'R$' + promocaoProdutoB ;
-//             segundoDesconto.textContent ='ou R$ ' + vistaProdutoB +' á vista' ;
-//         }):
-//         break;
-//     }
+//   if (display == "block") {
+//     document.getElementById(el).style.display = "none";
+//     console.log("block");
+//   } else {
+//     document.getElementById(el).style.display = "block";
+//     console.log("none");
+//   }
 // }
-// const botn = document.getElementById('#cc');
+// function escondeC(el) {
+//   let display = document.getElementById(el).style.display;
 
-// function longe(){
-//     switch(botn){
-//         case addEventListener('click',() =>{
-//             primeiroValor.textContent ='R$ ' + valorProdutoC + ' por caixa';
-//             primeiroDesconto.textContent ='Economize ' + ' R$ ' + descontoProdutoC ;
-//             segundoValor.textContent ='HOJE: ' + '12X ' + 'R$' + promocaoProdutoC ;
-//             segundoDesconto.textContent ='ou R$ ' + vistaProdutoC +' á vista' ;
-//         }):
-//         break;
-//     }
-// };
+//   if (display == "block") {
+//     document.getElementById(el).style.display = "none";
+//     console.log("block");
+//   } else {
+//     document.getElementById(el).style.display = "block";
+//     console.log("none");
+//   }
+// }
+// function escondeD(el) {
+//   let display = document.getElementById(el).style.display;
+
+//   if (display == "block") {
+//     document.getElementById(el).style.display = "none";
+//     console.log("block");
+//   } else {
+//     document.getElementById(el).style.display = "block";
+//     console.log("none");
+//   }
+// }
+// function escondeE(el) {
+//   let display = document.getElementById(el).style.display;
+
+//   if (display == "block") {
+//     document.getElementById(el).style.display = "none";
+//     console.log("block");
+//   } else {
+//     document.getElementById(el).style.display = "block";
+//     console.log("none");
+//   }
+// }
+// function escondeF(el) {
+//   let display = document.getElementById(el).style.display;
+
+//   if (display == "block") {
+//     document.getElementById(el).style.display = "none";
+//     console.log("block");
+//   } else {
+//     document.getElementById(el).style.display = "block";
+//     console.log("none");
+//   }
+// }
+// function escondeG(el) {
+//   let display = document.getElementById(el).style.display;
+
+//   if (display == "block") {
+//     document.getElementById(el).style.display = "none";
+//     console.log("block");
+//   } else {
+//     document.getElementById(el).style.display = "block";
+//     console.log("none");
+//   }
+// }
+// function escondeH(el) {
+//   let display = document.getElementById(el).style.display;
+
+//   if (display == "block") {
+//     document.getElementById(el).style.display = "none";
+//     console.log("block");
+//   } else {
+//     document.getElementById(el).style.display = "block";
+//     console.log("none");
+//   }
+// }

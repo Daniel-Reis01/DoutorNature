@@ -297,6 +297,10 @@ header {
     font-size: 15px;
 }
 
+.assinante p img{
+    pointer-events: none;
+}
+
 .marcador-assinante {
     margin-top: 9%;
     background-color: #9292923d;
