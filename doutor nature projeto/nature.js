@@ -335,4 +335,55 @@ function escondeH(el){
     }
     
 
+};
+const bot = document.getElementById('#aa');
+
+function botao(){
+
+    
+    switch(bot){
+        case addEventListener('click',() =>{
+            console.log('0')
+            primeiroValor.textContent ='R$ ' + valorprodutoA + ' por caixa';
+            console.log('1')
+            primeiroDesconto.textContent =' ';
+            console.log('2')
+            segundoValor.textContent ='HOJE: ' + '12X ' + 'R$' + promocaoProdutoA ;
+            segundoDesconto.textContent ='ou R$ ' + vistaProdutoA +' á vista' ;
+            alert(segundoValor.textContent ='HOJE: ' + '12X ' + 'R$' + promocaoProdutoA )
+        }):
+       
+        break;
+    }
 }
+
+const botao2 = document.getElementById('#bb');
+function central(){
+   
+
+    switch(botao2){
+        case addEventListener('click',() =>{
+            console.log('0')
+            primeiroValor.textContent ='R$ ' + valorProdutoB + ' por caixa';
+            console.log('1')
+            primeiroDesconto.textContent ='Economize ' + ' R$ ' + descontoProdutoB ;
+            console.log('2')
+            segundoValor.textContent ='HOJE: ' + '12X ' + 'R$' + promocaoProdutoB ;
+            segundoDesconto.textContent ='ou R$ ' + vistaProdutoB +' á vista' ;
+        }):
+        break;
+    }
+}
+const botn = document.getElementById('#cc');
+
+function longe(){
+    switch(botn){
+        case addEventListener('click',() =>{
+            primeiroValor.textContent ='R$ ' + valorProdutoC + ' por caixa';
+            primeiroDesconto.textContent ='Economize ' + ' R$ ' + descontoProdutoC ;
+            segundoValor.textContent ='HOJE: ' + '12X ' + 'R$' + promocaoProdutoC ;
+            segundoDesconto.textContent ='ou R$ ' + vistaProdutoC +' á vista' ;
+        }):
+        break;
+    }
+};
