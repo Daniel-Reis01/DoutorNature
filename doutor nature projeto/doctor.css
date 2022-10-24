@@ -555,5 +555,18 @@ color: #F5F5F5;
     } 
     footer{
         background-color: #f5f5f5c2;
+        height: 200px;
     }
-    
+    .nature-conclusao p{
+        padding-top: 5%;
+        font-size:11px ;
+    }
+    .logo-footer{
+        padding-top: 2%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+    .logo-footer p{
+        padding-top: 1%;
+    }
