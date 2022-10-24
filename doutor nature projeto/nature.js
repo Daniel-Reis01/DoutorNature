@@ -126,9 +126,8 @@ function assinateCkeckEconomize(el) {
 }
 
 function esconderMostrar(el) {
-  var display = document.querySelector("p").style.display;
-
-  if (display == "block") {
+  
+  if (document.querySelector("p").style.display == "block") {
     document.querySelector("p").style.display = 'none';
     console.log("block");
   } else {
