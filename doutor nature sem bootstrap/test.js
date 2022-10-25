@@ -59,3 +59,15 @@ var pai = title.parentNode;
 
 // trocar os elementos
 pai.replaceChild(el, title);
+
+
+function esconderMostrar(el) {
+  
+    if (document.querySelector("p").style.display == "block") {
+      document.querySelector("p").style.display = 'none';
+      console.log("block");
+    } else {
+      document.querySelector("p").style.display = "block";
+      console.log("none");
+    }
+  }
