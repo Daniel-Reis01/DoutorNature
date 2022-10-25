@@ -127,101 +127,12 @@ function assinateCkeckEconomize(el) {
 
 function esconderMostrar(el) {
   
-  if (document.querySelector("p").style.display == "block") {
-    document.querySelector("p").style.display = 'none';
+  if (el.querySelector("p").style.display == "block") {
+    el.querySelector("p").style.display = 'none';
     console.log("block");
   } else {
-    document.querySelector("p").style.display = "block";
+    el.querySelector("p").style.display = "block";
     console.log("none");
   }
 }
 
-// function escondeB(el) {
-//   let display = document.getElementById(el).style.display;
-
-//   if (display == "block") {
-//     document.getElementById(el).style.display = "none";
-//     console.log("block");
-//   } else {
-//     document.getElementById(el).style.display = "block";
-//     console.log("none");
-//   }
-// }
-
-// function escondeC(el) {
-//   let display = document.getElementById(el).style.display;
-
-//   if (display == "block") {
-//     document.getElementById(el).style.display = "none";
-//     console.log("block");
-//   } else {
-//     document.getElementById(el).style.display = "block";
-//     console.log("none");
-//   }
-// }
-// function escondeC(el) {
-//   let display = document.getElementById(el).style.display;
-
-//   if (display == "block") {
-//     document.getElementById(el).style.display = "none";
-//     console.log("block");
-//   } else {
-//     document.getElementById(el).style.display = "block";
-//     console.log("none");
-//   }
-// }
-// function escondeD(el) {
-//   let display = document.getElementById(el).style.display;
-
-//   if (display == "block") {
-//     document.getElementById(el).style.display = "none";
-//     console.log("block");
-//   } else {
-//     document.getElementById(el).style.display = "block";
-//     console.log("none");
-//   }
-// }
-// function escondeE(el) {
-//   let display = document.getElementById(el).style.display;
-
-//   if (display == "block") {
-//     document.getElementById(el).style.display = "none";
-//     console.log("block");
-//   } else {
-//     document.getElementById(el).style.display = "block";
-//     console.log("none");
-//   }
-// }
-// function escondeF(el) {
-//   let display = document.getElementById(el).style.display;
-
-//   if (display == "block") {
-//     document.getElementById(el).style.display = "none";
-//     console.log("block");
-//   } else {
-//     document.getElementById(el).style.display = "block";
-//     console.log("none");
-//   }
-// }
-// function escondeG(el) {
-//   let display = document.getElementById(el).style.display;
-
-//   if (display == "block") {
-//     document.getElementById(el).style.display = "none";
-//     console.log("block");
-//   } else {
-//     document.getElementById(el).style.display = "block";
-//     console.log("none");
-//   }
-// }
-// function escondeH(el) {
-//   let display = document.getElementById(el).style.display;
-
-//   if (display == "block") {
-//     document.getElementById(el).style.display = "none";
-//     console.log("block");
-//   } else {
-//     document.getElementById(el).style.display = "block";
-//     console.log("none");
-//   }
-// }
