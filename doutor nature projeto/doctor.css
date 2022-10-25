@@ -795,11 +795,44 @@ footer {
     cursor: pointer;
     transform: scale(1.2);
   }
-  .img-suplemento img{
-    width:300px;
+  .img-suplemento img {
+    width: 300px;
   }
-  .suplemento-anti p{
-    font-size:15px ;
+  .suplemento-anti p {
+    font-size: 15px;
+  }
+  .suplemento-promo {
+    width: 300px;
+  }
+  .suplemento-promo h2 {
+    font-size: 20px;
+    width: 260px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  .suplemento-promo h6 {
+    margin-left: 20px;
+  }
+  .nature-conclusao p {
+    font-size: 10px;
+  }
+  .assinante-down {
+    width: 340px;
+  }
+  .assinante-down h2 {
+    font-size: 20px;
+    width: 260px;
+    height: 60px;
+    margin-left: 20px;
+  }
+  .assinante-desconto img {
+    transform: translate(246px, -400px);
+  }
+  .logo-footer img {
+    width: 100px;
+  }
+  .logo-footer p {
+    font-size: 8px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -925,25 +958,101 @@ footer {
   .promocao-10 {
     transform: translate(-94px, -165px);
   }
-  .resultado-img img{
-    width:245px;
-   }
-   .resultado-img img:hover{
-     cursor: pointer;
-     transform: scale(1.2) ;
-   }
-   .resultado-two img{
-     width:245px;
-   }
-   .resultado img:hover{
-     cursor: pointer;
-     transform: scale(1.2) ;
-   }
-   .img-suplemento img{
-    width:250px;
+  .resultado-img img {
+    width: 245px;
   }
-  .suplemento-anti p{
-    font-size:12px ;
+  .resultado-img img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .resultado-two img {
+    width: 245px;
+  }
+  .resultado img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .img-suplemento img {
+    width: 250px;
+  }
+  .suplemento-anti p {
+    font-size: 12px;
+  }
+  .suplemento-promo {
+    width: 265px;
+    height:350px;
+  }
+  .suplemento-promo h2 {
+    font-size: 15px;
+    width: 240px;
+    height: 50px;
+    margin-left: 15px;
+    margin-bottom:5px;
+    padding-top: 5%;
+  }
+  .suplemento-promo h6 {
+    margin-left: 40px;
+    width:180px ;
+    margin-top:10px;
+  }
+  .suplemento-promo button{
+    width:60px ;
+    height:60px ;
+    font-size:20px;
+  }
+  .suplemento-promo button p{
+    font-size: 20px;
+  }
+  .butaoA{
+    margin-left:20px;
+  }
+  .suplemento-promo h3{ 
+    font-size: 18px;
+    text-align: justify;
+    margin-left:50px;
+  }
+  .suplemento-promo h4{
+    font-size: 18px;
+    text-align: justify;
+    margin-left:50px;
+  }
+  .suplemento-promo h5{
+    font-size: 18px;
+    text-align:justify ;
+    margin-left:50px;
+  }
+  .a-vista{
+    text-align: justify;
+    margin-left:62px;
+  }
+  .nature-conclusao p {
+    font-size: 10px;
+  }
+  .assinante-down {
+    width: 280px;
+    height: 290px;
+  }
+  .assinante-down h2 {
+    font-size: 18px;
+    width: 220px;
+    height: 60px;
+    margin-left: 20px;
+  }
+  .assinante-down p{
+    font-size:12px;
+  }
+  .assinante-down img{
+    width:15px;
+  }
+  .assinante-desconto img {
+    width:100px ;
+    transform: translate(188px, -350px);
+  }
+  .logo-footer img {
+    width: 100px;
+  }
+  .logo-footer p {
+    font-size: 8px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -1079,25 +1188,25 @@ footer {
   .promocao-10 {
     transform: translate(-94px, -141px);
   }
-  .resultado-img img{
-    width:180px;
-   }
-   .resultado-img img:hover{
-     cursor: pointer;
-     transform: scale(1.2) ;
-   }
-   .resultado-two img{
-     width:180px;
-   }
-   .resultado img:hover{
-     cursor: pointer;
-     transform: scale(1.2) ;
-   }
-   .img-suplemento img{
-    width:200px;
+  .resultado-img img {
+    width: 180px;
   }
-  .suplemento-anti p{
-    font-size:10px ;
+  .resultado-img img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .resultado-two img {
+    width: 180px;
+  }
+  .resultado img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .img-suplemento img {
+    width: 200px;
+  }
+  .suplemento-anti p {
+    font-size: 10px;
   }
 }
 
@@ -1129,24 +1238,24 @@ footer {
   .doutor img {
     width: 150px;
   }
-  .resultado-img img{
-    width:100px;
-   }
-   .resultado-img img:hover{
-     cursor: pointer;
-     transform: scale(1.2) ;
-   }
-   .resultado-two img{
-     width:100px;
-   }
-   .resultado img:hover{
-     cursor: pointer;
-     transform: scale(1.2) ;
-   }
-   .img-suplemento img{
-    width:180px;
+  .resultado-img img {
+    width: 100px;
   }
-  .suplemento-anti p{
-    font-size:8px ;
+  .resultado-img img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .resultado-two img {
+    width: 100px;
+  }
+  .resultado img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .img-suplemento img {
+    width: 180px;
+  }
+  .suplemento-anti p {
+    font-size: 8px;
   }
 }
