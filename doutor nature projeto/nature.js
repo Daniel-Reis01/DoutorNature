@@ -67,45 +67,55 @@ function botonlest() {
       break;
   }
 }
+function boton() {
+  if (
+    document.getElementById("suplemento").getAttribute("src") =="img/image11.jpg")
+    {
 
-const botnA = document.getElementById("aa1");
+    document.getElementById("suplemento").setAttribute("src", "img/aaox-1.png");
 
-function botao() {
-  switch (botnA) {
-    case addEventListener("click", () => {
-      primeiroValor.textContent = "R$ " + valorprodutoA + " por caixa";
-      primeiroDesconto.textContent = " ";
-      segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoA;
-      segundoDesconto.textContent = "ou R$ " + vistaProdutoA + " á vista";
-    }):
-      break;
+  } else if(document.getElementById("suplemento").getAttribute("src") != "img/image11.jpg"){
+    
+    document.getElementById("suplemento").setAttribute("src", "img/aaox-1.png");
+ 
+  } else {
+
+    document.getElementById("suplemento").setAttribute("src", "img/image11.jpg");
   }
-}
 
-const botao2 = document.getElementById("bb");
-function central() {
-  switch (botao2) {
-    case addEventListener("click", () => {
-      console.log("0");
-      primeiroValor.textContent = "R$ " + valorProdutoB + " por caixa";
-      primeiroDesconto.textContent = "Economize " + " R$ " + descontoProdutoB;
-      segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoB;
-      segundoDesconto.textContent = "ou R$ " + vistaProdutoB + " á vista";
-    }):
-      break;
+}
+function botonfix() {
+  if (
+    document.getElementById("suplemento").getAttribute("src") == "img/image11.jpg") 
+    {
+
+      document.getElementById("suplemento").setAttribute("src", "img/aaox-3.png");
+
+  } else if(document.getElementById("suplemento").getAttribute("src") != "img/image11.jpg"){
+
+         document.getElementById("suplemento").setAttribute("src", "img/aaox-3.png");
+  } else {
+
+    document.getElementById("suplemento").setAttribute("src", "img/image11.jpg");
+
   }
-}
-const botn = document.getElementById("cc");
 
-function longe() {
-  switch (botn) {
-    case addEventListener("click", () => {
-      primeiroValor.textContent = "R$ " + valorProdutoC + " por caixa";
-      primeiroDesconto.textContent = "Economize " + " R$ " + descontoProdutoC;
-      segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoC;
-      segundoDesconto.textContent = "ou R$ " + vistaProdutoC + " á vista";
-    }):
-      break;
+}
+function botonlest() {
+  if (
+    document.getElementById("suplemento").getAttribute("src") =="img/image11.jpg") 
+    {
+
+    document.getElementById("suplemento").setAttribute("src", "img/aaox-6.png");
+
+  } else if(document.getElementById("suplemento").getAttribute("src") != "img/image11.jpg"){
+
+    document.getElementById("suplemento").setAttribute("src", "img/aaox-6.png");
+
+  } else {
+
+    document.getElementById("suplemento").setAttribute("src", "img/image11.jpg");
+
   }
 }
 
