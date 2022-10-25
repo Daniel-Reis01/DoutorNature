@@ -50,6 +50,7 @@ function botonfix() {
       primeiroDesconto.textContent = "Economize " + " R$ " + descontoProdutoB;
       segundoValor.textContent = "HOJE: " + "12X " + "R$" + promocaoProdutoB;
       segundoDesconto.textContent = "ou R$ " + vistaProdutoB + " á vista";
+      console.log('iai');
     }):
       break;
   }
