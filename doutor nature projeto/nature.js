@@ -126,13 +126,11 @@ function assinateCkeckEconomize(el) {
 }
 
 function esconderMostrar(el) {
-  
   if (el.querySelector("p").style.display == "block") {
-    el.querySelector("p").style.display = 'none';
+    el.querySelector("p").style.display = "none";
     console.log("block");
   } else {
     el.querySelector("p").style.display = "block";
     console.log("none");
   }
 }
-

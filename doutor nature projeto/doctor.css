@@ -781,6 +781,26 @@ footer {
   .promocao-10 {
     transform: translate(-94px, -200px);
   }
+  .resultado-img img {
+    width: 300px;
+  }
+  .resultado-img img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .resultado-two img {
+    width: 300px;
+  }
+  .resultado img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .img-suplemento img{
+    width:300px;
+  }
+  .suplemento-anti p{
+    font-size:15px ;
+  }
 }
 @media screen and (max-width: 700px) {
   .cosmetico h1 {
@@ -827,7 +847,7 @@ footer {
     font-size: 23px;
     padding-bottom: 6%;
   }
-  .pacotepromo{
+  .pacotepromo {
     padding-left: 15%;
     padding-top: 10%;
   }
@@ -836,7 +856,7 @@ footer {
     height: 320px;
     width: 300px;
   }
-  
+
   .produto-promo h2 {
     padding-top: 4%;
     margin-left: 10px;
@@ -846,59 +866,57 @@ footer {
     height: 43px;
   }
   .produto-medicinal button {
-    font-size:20px ;
+    font-size: 20px;
     width: 60px;
     height: 60px;
   }
-  .produto-medicinal button p{
-   font-size:13px ;
+  .produto-medicinal button p {
+    font-size: 13px;
   }
-  #a1{
-    margin-left:40px;
+  #a1 {
+    margin-left: 40px;
   }
   .produto-medicinal h6 {
     margin-left: 45px;
     margin-top: 0px;
     width: 160px;
-    padding-top:5px;
+    padding-top: 5px;
   }
-  .produto-medicinal h3{
-    font-size:13px ;
-}
-  .produto-medicinal h4{
-    font-size:13px ;
+  .produto-medicinal h3 {
+    font-size: 13px;
   }
-  .produto-medicinal h5{
-    font-size:13px ;
+  .produto-medicinal h4 {
+    font-size: 13px;
   }
-  .a-vista{
-    font-size:13px ;
+  .produto-medicinal h5 {
+    font-size: 13px;
   }
-  
+  .a-vista {
+    font-size: 13px;
+  }
+
   .assinante {
     padding-top: 3%;
     height: 280px;
     width: 370px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
   }
   .assinante h2 {
     width: 220px;
     height: 60px;
   }
   .assinante p {
-    
     font-size: 8px;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .assinante img{
-    width:15px ;
+  .assinante img {
+    width: 15px;
   }
   .marcador-assinante {
     margin-left: 8px;
     width: 225px;
     margin-right: 5px;
-
   }
   .marcador-assinante p {
     font-size: 13px;
@@ -906,6 +924,26 @@ footer {
   }
   .promocao-10 {
     transform: translate(-94px, -165px);
+  }
+  .resultado-img img{
+    width:245px;
+   }
+   .resultado-img img:hover{
+     cursor: pointer;
+     transform: scale(1.2) ;
+   }
+   .resultado-two img{
+     width:245px;
+   }
+   .resultado img:hover{
+     cursor: pointer;
+     transform: scale(1.2) ;
+   }
+   .img-suplemento img{
+    width:250px;
+  }
+  .suplemento-anti p{
+    font-size:12px ;
   }
 }
 @media screen and (max-width: 500px) {
@@ -957,7 +995,7 @@ footer {
     font-size: 15px;
     padding-bottom: 16%;
   }
-  .pacotepromo{
+  .pacotepromo {
     padding-left: 22%;
     padding-top: 20%;
   }
@@ -966,7 +1004,7 @@ footer {
     height: 250px;
     width: 220px;
   }
-  
+
   .produto-promo h2 {
     padding-top: 4%;
     margin-left: 12px;
@@ -975,66 +1013,64 @@ footer {
     width: 100px;
     height: 25px;
   }
-  .produto-medicinal h2{
+  .produto-medicinal h2 {
     width: 120px;
     margin-bottom: 1%;
   }
 
   .produto-medicinal button {
-    font-size:13px ;
+    font-size: 13px;
     width: 40px;
     height: 40px;
   }
-  .produto-medicinal button p{
-   font-size:13px ;
+  .produto-medicinal button p {
+    font-size: 13px;
   }
-  #a1{
-    margin-left:12px;
+  #a1 {
+    margin-left: 12px;
   }
   .produto-medicinal h6 {
-    font-size:15px;
+    font-size: 15px;
     margin-left: 10px;
     margin-top: 0px;
     width: 120px;
-    height:30px ;
-    padding-top:5px;
+    height: 30px;
+    padding-top: 5px;
   }
-  .produto-medicinal h3{
-    font-size:13px ;
-}
-  .produto-medicinal h4{
-    font-size:13px ;
+  .produto-medicinal h3 {
+    font-size: 13px;
   }
-  .produto-medicinal h5{
-    font-size:13px ;
+  .produto-medicinal h4 {
+    font-size: 13px;
   }
-  .a-vista{
-    font-size:12px ;
+  .produto-medicinal h5 {
+    font-size: 13px;
+  }
+  .a-vista {
+    font-size: 12px;
   }
   .assinante {
     padding-top: 2%;
     height: 230px;
     width: 350px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
   }
   .assinante h2 {
     width: 140px;
     height: 40px;
   }
   .assinante p {
-    
     font-size: 8px;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .assinante img{
-    width:13px ;
+  .assinante img {
+    width: 13px;
   }
   .marcador-assinante {
     margin-left: 8px;
     width: 200px;
     margin-right: 5px;
-
   }
   .marcador-assinante p {
     font-size: 12px;
@@ -1042,6 +1078,26 @@ footer {
   }
   .promocao-10 {
     transform: translate(-94px, -141px);
+  }
+  .resultado-img img{
+    width:180px;
+   }
+   .resultado-img img:hover{
+     cursor: pointer;
+     transform: scale(1.2) ;
+   }
+   .resultado-two img{
+     width:180px;
+   }
+   .resultado img:hover{
+     cursor: pointer;
+     transform: scale(1.2) ;
+   }
+   .img-suplemento img{
+    width:200px;
+  }
+  .suplemento-anti p{
+    font-size:10px ;
   }
 }
 
@@ -1072,5 +1128,25 @@ footer {
   }
   .doutor img {
     width: 150px;
+  }
+  .resultado-img img{
+    width:100px;
+   }
+   .resultado-img img:hover{
+     cursor: pointer;
+     transform: scale(1.2) ;
+   }
+   .resultado-two img{
+     width:100px;
+   }
+   .resultado img:hover{
+     cursor: pointer;
+     transform: scale(1.2) ;
+   }
+   .img-suplemento img{
+    width:180px;
+  }
+  .suplemento-anti p{
+    font-size:8px ;
   }
 }
